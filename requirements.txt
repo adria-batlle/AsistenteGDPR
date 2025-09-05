@@ -3,14 +3,14 @@ streamlit==1.37.0
 google-generativeai==0.3.1
 
 # NLP y Transformers
-sentence-transformers==2.2.2
-transformers>=4.35.0
-huggingface-hub>=0.20.0
+sentence-transformers>=2.7.0
+transformers>=4.42.4
+huggingface-hub>=0.23.0
 
-# PyTorch (usar última versión compatible con PyPI/Streamlit, no fijar antigua)
+# PyTorch (versión reciente compatible con Python 3.11/3.13)
 torch>=2.5.0
 
-# Vector database FAISS
+# Vector DB FAISS
 faiss-cpu>=1.9.0
 
 # Utilidades científicas
